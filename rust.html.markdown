@@ -44,9 +44,18 @@ Rust not only fast, but also easy and efficient to code in.
 // 1. Basics //
 ///////////////
 
+/* Number types
+`xN`
+If `x` is `u` then the type is unsigned
+else if it's `i` it's signed.
+`N` should be the number of bit used by
+the type (e.g: `i32` is the type for 32-bit signed integer)
+N can only be equals at the moment to 8, 16, 32, 64, or 128
+(cad: 1, 2, 4, 8, or 16 bytes).
+*/
+
 #[allow(dead_code)]
 // Functions
-// `i32` is the type for 32-bit signed integers
 fn add2(x: i32, y: i32) -> i32 {
     // Implicit return (no semicolon)
     x + y
