@@ -61,6 +61,12 @@ fn add2(x: i32, y: i32) -> i32 {
     x + y
 }
 
+/*
+However if we want to return before some instructions
+in the function, then there is the keyword "return" to
+use.
+*/
+
 #[allow(unused_variables)]
 #[allow(unused_assignments)]
 #[allow(dead_code)]
