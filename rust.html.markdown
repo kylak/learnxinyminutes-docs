@@ -68,7 +68,7 @@ use.
 */
 
 /*
-So now that we have a good understanding of pass-by-value vs. pass-by-reference, what is Rust?
+Is Rust a pass-by-value or pass-by-reference language ?
 Rust is strictly a pass-by-value language.
 This might surprise you since references play a big part in the language. However, references in Rust are first class citizens.
 They, themselves, are values that can be passed - by value - to a function.
