@@ -122,6 +122,10 @@ fn main() {
     println!("{} {}", s, s_slice); // hello world hello world
 
     // Vectors/arrays //
+    /*
+        "Vectors are one of the most-used Rust data structures. 
+        In other programming languages, they'd simply be called Arrays"
+    */
 
     // A fixed-size array
     let four_ints: [i32; 4] = [1, 2, 3, 4];
