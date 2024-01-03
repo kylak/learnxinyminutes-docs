@@ -67,6 +67,13 @@ in the function, then there is the keyword "return" to
 use.
 */
 
+/*
+So now that we have a good understanding of pass-by-value vs. pass-by-reference, what is Rust?
+Rust is strictly a pass-by-value language.
+This might surprise you since references play a big part in the language. However, references in Rust are first class citizens.
+They, themselves, are values that can be passed - by value - to a function.
+*/
+
 #[allow(unused_variables)]
 #[allow(unused_assignments)]
 #[allow(dead_code)]
